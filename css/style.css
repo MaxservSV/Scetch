@@ -1,0 +1,60 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-menu{
+    margin-right: auto;
+}
+.logo{
+    margin-right: 8px;
+}
+.menu{
+    list-style: none;
+    margin: 0;
+    padding-left: 22px;
+    padding-right: 22px;
+    display: flex;
+}
+.menu-item:not(:last-child){
+    margin-right: 32px;
+}
+.menu-link{
+    text-decoration: none;
+    color: inherit;
+}
+.button{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 19px;
+    cursor: pointer;
+}
+.button-primary{
+    color: inherit;
+}
+.button-secondary{
+    background: black;
+    border-radius: 6px;
+    color: white;
+}
+.button-watch{
+    color: inherit 
+}
+.button-start{
+    background: white;
+    border-radius: 6px;
+    color: black;
+}
