@@ -4,6 +4,11 @@ body{
     line-height: 20px;
     color: black;
 }
+span{
+    text-decoration:underline #FF7843;
+    text-decoration-thickness: 9px;
+    margin-left: 23px;
+}
 .section{
     width: 1440px;
 }
@@ -12,7 +17,7 @@ body{
     margin: auto;
 }
 .header{
-    padding-top: 20px;
+    padding-top: 17px;
     padding-bottom: 20px;
 }
 .navbar{
@@ -24,7 +29,7 @@ body{
     margin-right: auto;
 }
 .logo{
-    margin-right: 8px;
+    margin-right: 18px;
 }
 .menu{
     list-style: none;
@@ -34,7 +39,7 @@ body{
     display: flex;
 }
 .menu-item:not(:last-child){
-    margin-right: 32px;
+    margin-right: 37px;
 }
 .menu-link{
     text-decoration: none;
@@ -48,6 +53,7 @@ body{
     border-radius: 6px;
 }
 .button-primary{
+    padding-right: 15px;
     color: inherit;
 }
 .button-secondary{
@@ -69,16 +75,18 @@ body{
     height: 800px;
 }
 .main-title{
-    margin-top: 122px;
+    margin-top: 108px;
     margin-bottom: 43px;
     font-size: 76px;
     line-height: 76px;
+    margin-left: 30px;
 }
 .description{
     width: 710px;
     font-size: 24px;
     line-height: 33px;
-    margin-bottom: 51px;
+    margin-bottom: 41px;
+    margin-left: 30px;
 }
 .button{
     font-weight: bold;
@@ -86,63 +94,83 @@ body{
     line-height: 24px;
 }
 .button-start{
-    margin-right: 57px;
+    margin-right: 35px;
+    margin-left: 32px;
+    padding-right: 25px;
 }
 .web-img{
     height: 700px;
     position: relative;
+
 }
 .webfront{
     position: absolute;
-    margin-left: 19px;
+    margin-left: 18px;
     margin-right: 269px;
     transform: translateY(-133px);
     z-index: 29;
 }
 .webback{
     position: absolute;
-    margin-left: 374px;
+    margin-left: 365px;
     margin-right: 67px;
     z-index: 8;
     transform: translateY(-90px)
 }
 .companies{
     text-align: center;
-    margin-top: 77px;
+    margin-top: 65px;
 }
 .companies-text{  
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
-    margin-bottom: 51px;
+    margin-bottom: 48px;
+    text-align: center;
+    text-transform: uppercase;
 }
 .icons:not(:last-child){
-    margin-right: 96px;
+    margin-right: 94px;
 }
 .design_container{
     display: flex;
     justify-content: space-between;
-    margin-top: 188px;
+    margin-top: 182px;
+}
+.screen{
+    margin-left: 9px;
+}
+.design_pre-text{
+    margin-top: 5px;
+    margin-left: 33px;
 }
 .design_column{
     width: 588px;
 }
 .design_title{
+    margin-left: 33px;
     font-size: 32px;
     line-height: 36px;
     margin-top: 15px;
+    margin-bottom: 0;
 }
 .design_text{
+    margin-left: 33px;
     font-size: 17px;
     line-height: 24px;
     margin-top: 15px;
-    width: 522px;
+    width: 520px;
     height: 72px;
 }
 .design_subtext{
+    margin-left: 33px;
     font-size: 17px;
     line-height: 24px;
     margin-top: 47px;
+}
+.design-img{
+    margin-left: 10px;
+    margin-top: 30px;
 }
 .design_pre-text{
     font-size: 14px;
@@ -151,13 +179,13 @@ body{
     color: #FF7843;
 }
 .designer-text{
-    margin-top: 73px;
+    margin-top: 69px;
     width: 588px;
     height: 280px;
     background: url('../img/background-tools.jpg') no-repeat;
 }
 .desiner-words{
-    padding: 41px 60px 23px 32px;
+    padding: 39px 60px 23px 32px;
     font-size: 24px;
     line-height: 32px;
     color: #FFFFFF;
@@ -169,6 +197,9 @@ body{
     color: #FFFFFF;
     margin: 0;
     padding-left: 32px;
+}
+.collaborate{
+    margin-top: 128px;
 }
 .collaborate-info{
     width: 1440px;
@@ -206,6 +237,7 @@ body{
 }
 .collaborate_subtext{
     margin-top: 23px;
+    font-size: 17px;
 }
 .collaborate_column{
     width: 588px;
@@ -224,6 +256,7 @@ body{
 .engineer-text{
     font-size: 24px;
     line-height: 32px;
+    margin: 0;
 }
 .engineer-name, .engineer-prof{
     font-size: 17px;
@@ -241,7 +274,7 @@ body{
     padding-left: 32px;
 }
 .workspace_image{
-    margin-left: auto;
+    margin-left: 108px;
     margin-right: auto;
     display: block;
 }
@@ -271,6 +304,10 @@ body{
     font-size: 17px;
     line-height: 24px;
     margin: 0;
+    
+}
+.design-systems{
+    margin-top: 150px;
 }
 .design-systems-info{
     width: 1440px;
@@ -285,6 +322,7 @@ body{
 .developer-text{
     font-size: 24px;
     line-height: 32px;
+    margin-top: 0;
 }
 .developer-name, .developer-prof{
     font-size: 17px;
@@ -309,8 +347,8 @@ body{
     line-height: 16px;
     text-transform: uppercase;
     color:#F5A925;
-    margin-top: 39px;
-    margin-bottom: 15px;
+    margin-top: 38px;
+    margin-bottom: 13px;
 }
 .handoff_title{
     font-size: 32px;
@@ -331,6 +369,7 @@ body{
     line-height: 24px;
     margin: 0;
 }
+
 .design-systems_image{
     margin-top: 54px;
 }
@@ -345,6 +384,7 @@ body{
     text-transform: uppercase;
     color: #8D5F10;
     margin: 0;
+    margin-top: 1px;
 }
 .design-systems_title{
     margin-top: 15px;
@@ -359,7 +399,8 @@ body{
     margin: 0;
 }
 .design-systems_subtext{
-    margin-top: 23px;
+    margin-top: 25px;
+    font-size: 17px;
 }
 .extensions_pre-title{
     font-size: 14px;
@@ -373,7 +414,7 @@ body{
     font-size: 32px;
     line-height: 36px;
     margin: 0;
-    width: 354px;
+    width: 360px;
 }
 .extensions_text{
     font-size: 17px;
@@ -390,10 +431,10 @@ body{
 }
 .extensions-block{
     margin-left: 152px;
-    margin-top: 119px;
+    margin-top: 114px;
 }
 .extensions-images{
-    margin-top: 312px;
+    margin-top: 236px;
     padding-left: 64px;
 }
 .extensions-image:not(:last-child){
@@ -403,6 +444,9 @@ body{
 }
 .last-news_title{
     margin-top: 167px;
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 24px;
 }
 .news-cards{
     width: 1200px;
@@ -421,11 +465,16 @@ body{
     font-size: 20px;
     line-height: 26px;
     color: #212123;
+    margin: 11px 0 0 0;
 }
 .card-text{
     font-size: 16px;
     line-height: 16px;
     color: rgba(33, 33, 35, 0.7);
+    margin-top: 6px;
+}
+.start{
+    margin-top: 115px;
 }
 .start-wrapper{
     background: url('../img/bgc-start.jpg') no-repeat;
@@ -434,12 +483,19 @@ body{
 .start_main-title{
     font-size: 48px;
     line-height: 50px;
+    margin-top: 38px;
+    margin-bottom: 32px;
+    
 }
 .start_description{
     font-size: 24px;
     line-height: 33px;
+    margin: 0;
+    width: 788px;
 }
 .button-trial{
+    padding: 12px 25px 12px 20px;
+    margin-top: 24px;
     background-color: #000;
     color: white;
 }
@@ -451,8 +507,7 @@ body{
     text-decoration: none;
 }
 .footer{
-  
-    margin-top: 96px;
+    margin-top: 68px;
     padding-top: 28px;
 }
 .footer_content{
@@ -467,7 +522,7 @@ body{
 }
 .subscribe-input{
     margin-top: 32px;
-    margin-bottom: 71px;
+    margin-bottom: 69px;
 }
 hr{
     position: absolute;
@@ -481,7 +536,6 @@ hr{
     height: 50px;
     border-radius: 5px;
     display: flex;
-
 }
 .email-input{
     width: 554px;
@@ -493,19 +547,23 @@ hr{
     border-radius: 6px 0px 0px 6px;
 }
 .button_subscribe{
-    padding: 13px 14px;
+    padding: 13px 17px;
     background-color: #000;
     color: #FFFFFF;
     border-radius: 0px 6px 6px 0px;
     border: 2px solid #000;
 }
 .checkbox{
+    margin-top: 10px;
     background: #FFFFFF;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
     border-radius: 2px;
 }
 .checkbox-text{
-    margin-left: 13px;
+    margin-left: 15px;
+    font-size: 14px;
+    line-height: 21px;
+    opacity: 0.7;
 }
 .footer-text1{
     opacity: 0.85;
@@ -513,7 +571,7 @@ hr{
 }
 .footer-text2{
     opacity: 0.7;
-    margin: 0;
+    margin-top: 5px;
 }
 .footer-text3{
     opacity: 0.55;
@@ -522,14 +580,18 @@ hr{
 }
 .copyrigth{
     text-align: center;
-    margin-top: 38px;
+    margin-top: 27px;
+    font-size: 13px;
+    line-height: 16px;
+    opacity: 0.55;
 }
 table{
     table-layout: fixed;
-    width: 100%;
+    width: 1200px;
+    border-spacing: none;
 }
 td:not(:last-child), th{
-    padding-bottom: 12px;
+    padding-bottom: 7px;
 }
 th{
     text-align: start;
@@ -543,16 +605,16 @@ thead th:nth-child(1) {
   }
   
   thead th:nth-child(3) {
-    width: 15%;
+    width: 19%;
   }
   
   thead th:nth-child(4) {
-    width: 22%;
+    width: 21%;
   }
   thead th:nth-child(5) {
-    width: 18%;
+    width: 16%;
   }
   thead th:nth-child(6) {
-    width: 9%;
+    width: 10%;
   }
   
